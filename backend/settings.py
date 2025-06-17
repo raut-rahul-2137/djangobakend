@@ -30,9 +30,8 @@ SECRET_KEY = os.getenv('SECRET_KEY', 'django-insecure-6or)r$!*o=%n)3%d5_mhd6z2%d
 DEBUG = os.getenv('DEBUG', 'False') == 'True'
 
 ALLOWED_HOSTS = [
-    'localhost',
-    '127.0.0.1',
-    '.onrender.com',  # Allow all Render subdomains
+   
+    'djangobakend.onrender.com' # Allow all Render subdomains
 ]
 
 
